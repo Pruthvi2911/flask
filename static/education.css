@@ -1,0 +1,50 @@
+/* education.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: linear-gradient(180deg, #f7fbff 0%, #eef6ff 100%);
+  color: #1f2937;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 20px rgba(31,41,55,0.08);
+}
+
+h1 {
+  margin-top: 0;
+  color: #0b5cff;
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.6;
+  color: #374151;
+}
+
+ul.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+
+ul.education-list li {
+  padding: 12px 16px;
+  border-left: 4px solid #cfe1ff;
+  background: #fbfdff;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+a {
+  color: #0b5cff;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }

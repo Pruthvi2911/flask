@@ -1,0 +1,50 @@
+/* writetome.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fffaf6;
+  color: #2b2b2b;
+  padding: 40px 16px;
+  text-align: center;
+}
+
+.contact-box {
+  max-width: 640px;
+  margin: 0 auto;
+  background: white;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(43,43,43,0.06);
+}
+
+h1 { color: #d97706; margin-top: 0; }
+
+form {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+}
+
+textarea { min-height: 120px; resize: vertical; }
+
+button[type="submit"] {
+  background: #ea580c;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button[type="submit"]:hover { opacity: 0.95; }
+
+a { color: #ea580c; text-decoration: none; }

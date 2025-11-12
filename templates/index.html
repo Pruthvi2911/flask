@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Flask Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  </head>
+  <body>
+    <h1>Welcome to My Flask Website</h1>
+    <nav>
+      <a href="{{ url_for('education') }}">Education</a> |
+      <a href="{{ url_for('experience') }}">Experience</a> |
+      <a href="{{ url_for('projects') }}">Projects</a> |
+      <a href="{{ url_for('writetome') }}">Write to Me</a>
+    </nav>
+  </body>
+</html>
